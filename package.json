@@ -1,0 +1,4 @@
+{
+    "devDependencies": { "@biomejs/biome": "1.9.4" },
+    "dependencies": { "@types/node": "^22.10.2" }
+}
