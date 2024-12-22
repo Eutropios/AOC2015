@@ -10,6 +10,9 @@
         "lineWidth": 80,
         "lineEnding": "lf"
     },
+    "files": {
+        "ignore": ["*.js"]
+    },
     "javascript": {
         "formatter": {
             "arrowParentheses": "always",
