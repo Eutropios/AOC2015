@@ -1,6 +1,6 @@
 import * as fs from "node:fs";
 
-const data = fs.readFileSync("./inputstring.txt", "utf-8").trim();
+const data = fs.readFileSync("./data.txt", "utf-8").trim();
 let upFloors = 0;
 let downFloors = 0;
 for (const chara of data) {
