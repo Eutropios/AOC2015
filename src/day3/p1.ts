@@ -1,6 +1,6 @@
 import * as fs from "node:fs";
 
-const data = fs.readFileSync("./data.txt", "utf-8").trim();
+const data = fs.readFileSync("src/day3/input.txt", "utf-8").trim();
 
 const visited = [[0, 0]];
 console.log(visited.length);

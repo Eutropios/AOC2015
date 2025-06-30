@@ -1,6 +1,6 @@
 import * as fs from "node:fs";
 
-const data = fs.readFileSync("./data.txt", "utf-8").trim();
+const data = fs.readFileSync("src/day3/input.txt", "utf-8").trim();
 
 const splitPaths = (data: string): string[] => {
     let santaPath = "";

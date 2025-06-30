@@ -1,7 +1,7 @@
 import * as fs from "node:fs";
 
 const data = fs
-    .readFileSync("./data.txt", "utf-8")
+    .readFileSync("src/day2/input.txt", "utf-8")
     .trim()
     .split(/[\r\n]+/);
 const findSmallestSideArea = (pLength: number, pWidth: number, pHeight: number): number =>
